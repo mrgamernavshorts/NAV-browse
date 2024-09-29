@@ -1,4 +1,4 @@
-An browser,made by me in python!
+A browser,made by me in python!
 
 i felt very satisfied after making this.
 
