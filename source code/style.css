@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    display: flex;
+    gap: 5px;
+    font-family: Fredoka,Arial;
+}
+
+.sb {
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-color: gray;
+    cursor: pointer;
+}
+.tb {
+    border-radius: 10px;
+    border-color: greenyellow;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
