@@ -2,7 +2,7 @@ A browser,made by me!
 
 i felt very satisfied after making this.
 
-first it used python(in alpha version),but now(the version 1.0(stable) and after)use html,css,and javascript.used [node-webkit](https://nwjs.io/)
+first it used python(in alpha version),but now(the version 1.0(stable) and after)use html,css,and javascript.used [node-webkit](https://nwjs.io/) for windows releases and hopweb app on playstore for converting html,css and javascript into apk.
 
 -------------------------------------------------------------------------------------------
 
