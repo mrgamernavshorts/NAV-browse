@@ -2,14 +2,20 @@ A browser,made by me!
 
 i felt very satisfied after making this.
 
+-------------------------------------------------------------------------------------------
+
 update:v1.0 stable release!:
 
 there is a complete revamp of the ui.now,it runs way faster.
+
+now,it doesn't crashes and the webengine is now the Chromium 129 and Node 22.7.0 is now supported.
 
 > [!NOTE]
 > official android and win32 release!now it can run on 32 bit windows and android!
 
 link:https://drive.google.com/drive/folders/1KYGNpMdDVRo-p6z0Pk1cAPqCw0v7n1CI?usp=drive_link
+
+-------------------------------------------------------------------------------------------
 
 update:alpha(unstable)release!:
 
