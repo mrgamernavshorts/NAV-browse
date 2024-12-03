@@ -6,7 +6,20 @@ first it used python(in alpha version),but now(the version 1.0(stable) and after
 
 -------------------------------------------------------------------------------------------
 
-update:v1.0 stable release!:
+Update:v1.1 released!what's new?:
+
+the browser is updated to Chromium 130 and Node 22.7.0.
+
+lite version is also released!!!!
+
+>[!NOTE]
+>NAV browse lite release!now it supports windows 7 on lite!
+
+direct link:https://drive.google.com/drive/folders/1KYGNpMdDVRo-p6z0Pk1cAPqCw0v7n1CI?usp=drive_link
+
+-------------------------------------------------------------------------------------------
+
+Update:v1.0 stable release!:
 
 there is a complete revamp of the ui.now,it runs way faster.
 
@@ -22,7 +35,7 @@ link:https://drive.google.com/drive/folders/1KYGNpMdDVRo-p6z0Pk1cAPqCw0v7n1CI?us
 
 -------------------------------------------------------------------------------------------
 
-update:alpha(unstable)release!:
+Update:Alpha(unstable)release!:
 
 download link:https://drive.google.com/drive/folders/1KYGNpMdDVRo-p6z0Pk1cAPqCw0v7n1CI?usp=drive_link
 
