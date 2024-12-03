@@ -8,7 +8,7 @@ first it used python(in alpha version),but now(the version 1.0(stable) and after
 
 Update:v1.1 released!what's new?:
 
-the browser is updated to Chromium 130 and Node 22.7.0.
+the browser is updated to Chromium 130.
 
 lite version is also released!!!!
 
