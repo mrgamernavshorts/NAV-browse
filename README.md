@@ -29,7 +29,7 @@ now,it doesn't crashes and the webengine is now the Chromium 129 and Node 22.7.0
 > official android and win32 release!now it can run on 32 bit windows and android!
 
 >[!WARNING]
->This Browser needs atleast windows 10 to run.it does not runs on Windows 8.1 and below.
+>This Browser needs atleast windows 10 to run.it does not runs on Windows 8.1 and below(note:the lite version (released on v1.1) can run on windows 7).
 
 link:https://drive.google.com/drive/folders/1KYGNpMdDVRo-p6z0Pk1cAPqCw0v7n1CI?usp=drive_link
 
