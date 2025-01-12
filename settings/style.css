@@ -33,7 +33,8 @@ body {
     background-color: greenyellow;
 }
 .info-boxes {
-    border: solid gray;
+    border: solid;
+    border: solid;
     border-radius: 10px;
     padding-left: 10px;
     background-color: white;
