@@ -1,37 +1,77 @@
 const backb = document.getElementById('backb');
 const body = document.getElementById('body');
-const modecheckbox = document.getElementById('modecheckbox');
+const customColorBox = document.getElementById('coustomcolorbox');
+const customColorDiv = document.getElementById('colorpicker');
+let color1 = document.getElementById('color1');
+let colorValue = JSON.parse(localStorage.getItem("colorvalue"));
+let coustomcoloron = JSON.parse(localStorage.getItem("coustomcoloron"));
+let usehttp = JSON.parse(localStorage.getItem("usehttp"));
+const usehttpbox = document.getElementById('usehttpbox')
 
-let mode = JSON.parse(localStorage.getItem("mode"));
-console.log(mode);
+color1.value = colorValue;
+body.style.backgroundColor = colorValue;
 
-if (mode == null) {
-    mode = false;
+
+if (usehttp == null){
+    usehttp = false;
+    localStorage.setItem("usehttp",JSON.stringify(false));
+}
+if (usehttp == false){
+    usehttpbox.checked = false;
+}else{
+    usehttpbox.checked = true;
+}
+if  (colorValue == null){
+    colorValue = "#000000";
 }
 
-function changemode() {
-    if (modecheckbox.checked) {
-        localStorage.setItem("mode", JSON.stringify(true));
-        console.log("mode set true");
-        body.style.backgroundColor = "white";
-    } else {
-        localStorage.setItem("mode", JSON.stringify(false));
-        body.style.backgroundColor = "black";
-    }
+if (coustomcoloron) {
+    customColorBox.checked = true;
+    customColorDiv.style.display = "block";
+}else{
+    customColorBox.checked = false;
+    customColorDiv.style.display = "none";
 }
 
 
-if (mode === true) {
-    modecheckbox.checked = true;
-    body.style.backgroundColor = "white";
-} else {
-    modecheckbox.checked = false;
-    body.style.backgroundColor = "black";
-}
-
-function closewin() {
+function closeWin() {
     window.close();
 }
 
-modecheckbox.onclick = changemode;
-backb.onclick = closewin;
+function showCustomColor() {
+    if (!customColorBox.checked) {
+        customColorDiv.style.display = "none";
+        colorValue = "#000000";
+        localStorage.setItem("colorvalue",JSON.stringify(colorValue))
+        body.style.backgroundColor = "black";
+        localStorage.setItem("coustomcoloron",JSON.stringify(false))
+    } else {
+        customColorDiv.style.display = "block";
+        localStorage.setItem("coustomcoloron",JSON.stringify(true))
+    }
+}
+
+function usehttpon(){
+    if (!usehttpbox.checked){
+        usehttpbox.checked = false;
+        localStorage.setItem("usehttp",JSON.stringify(false));
+    }else{
+        usehttpbox.checked = true;
+        localStorage.setItem("usehttp",JSON.stringify(true));
+    }
+}
+
+function saveCustomColor() {
+    if (customColorBox.checked) {
+        colorValue = color1.value;
+        console.log("Custom color set:", colorValue);
+        localStorage.setItem("colorvalue", JSON.stringify(colorValue));
+        body.style.backgroundColor = colorValue;
+    } else {
+        localStorage.setItem("colorvalue", JSON.stringify(null));
+    }
+}
+backb.onclick = closeWin;
+customColorBox.onclick = showCustomColor;
+color1.oninput = saveCustomColor;
+usehttpbox.onclick = usehttpon;

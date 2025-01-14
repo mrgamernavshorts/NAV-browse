@@ -10,12 +10,12 @@ body {
     width: 80px;
     height: 80px;
     background-color: black;
-    border: solid;
+    border: solid white;
     cursor: pointer;
 }
 .tb {
     border-radius: 10px;
-    border-color: greenyellow;
+    border: solid;
     background-color: black;
     color: white;
     margin-top: 15px;

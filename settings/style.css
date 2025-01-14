@@ -40,3 +40,7 @@ body {
     background-color: white;
     margin-top: 5px;
 }
+#colorpicker {
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
