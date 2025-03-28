@@ -1,17 +1,19 @@
-const { app, BrowserWindow, Menu, MenuItem, globalShortcut, ipcMain } = require("electron");
+const { app, BrowserWindow, Menu, MenuItem, globalShortcut, ipcMain, nativeTheme } = require("electron");
 const path = require("path");
 
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: "logo.ico",
     webPreferences: {
-      nodeIntegration: true,
-      icon: "logo.ico"
+      nodeIntegration: false,
+      spellcheck: true,
     },
   });
   win.menuBarVisible = false;
   win.loadFile("index.html");
+  nativeTheme.themeSource = 'dark';
 
   const menu = new Menu();
   menu.append(new MenuItem({label: "Reload (Alt+R)", role: "reload"}))

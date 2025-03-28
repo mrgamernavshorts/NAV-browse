@@ -18,6 +18,7 @@ body {
     border: solid;
     background-color: black;
     color: white;
+    width: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
