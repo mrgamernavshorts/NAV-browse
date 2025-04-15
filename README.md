@@ -4,4 +4,4 @@ You can go to [NAV browse official website](https://mrgamernavshorts.github.io/n
 
 And it is made by an 14 year old!
 
-It is bundled to Windows through [NW.js](https://nwjs.io/).
+It is bundled to Windows through Electron.
