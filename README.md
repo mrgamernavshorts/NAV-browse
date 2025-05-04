@@ -5,3 +5,6 @@ You can go to [NAV browse official website](https://mrgamernavshorts.github.io/n
 And it is made by an 14 year old!
 
 It is bundled to Windows through Electron.
+
+> [!WARNING]
+> This project has been dicontinued. Now, it will only run on contributions. so, **Contributions are welcomed.**
